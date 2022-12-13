@@ -41,7 +41,52 @@
 
         <div class="input-box">
             <label for="">Content Type</label><br>
-            <select name="content" id="dropdown"></select>
+            <select name="content" id="dropdown">
+                <option value="movies">Movies</option>
+                <option value="series" selected>Series</option>
+                
+                <option value="tv shows">TV Shows</option>
+          </select>
+
+          <div class="input-box">
+            <label for="">Movie Type</label><br>
+
+            <input type="checkbox" name="movie" id="first-check" value="comedy">
+            <label for="first-check">Comedy</label><br>
+
+            <input type="checkbox" name="movie" id="second-check" value="comedy">
+            <label for="second-check">Action</label><br>
+
+            <input type="checkbox" name="movie" id="third-check" value="romance">
+            <label for="third-check">Romance</label>
+       </div>
+
+       <div class="input-box">
+        <label for="">Gender</label><br>
+
+        <input type="radio" name="gender" id="first-radio" value="male">
+        <label for="first-radio">Male</label><br>
+
+        <input type="radio" name="gender" id="second-radio" value="female">
+        <label for="second-radio">Female</label><br>
+
+        <input type="radio" name="gender" id="third-radio" value="other">
+        <label for="third-radio">Other</label><br>
+
+      </div>
+
+      <div class="input-box">
+        <label for="feedback">Feedback</label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="any comment"></textarea>
+    </div>
+
+    <div class="form-submit">
+        <input type="submit" value="send">
+
+
+    </div>
+
+
             
 
 
